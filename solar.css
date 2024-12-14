@@ -1,0 +1,255 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://lh3.googleusercontent.com/9zE3StG50FuHs9PCo6kMTIhWKyIc3vJ2JqxPZEgaKc8WQ2vzAyWR4wqYYhMZ7zkhc0C893COYflGKt70Sb15e4gg7eI=s1280-w1280-h800");
+    background-size: cover;
+}
+.solar-system{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sun{
+    height: 100px;
+    width: 100px;
+    background-image: url("https://images.nationalgeographic.org/image/upload/t_RL2_search_thumb/v1638882786/EducationHub/photos/sun-blasts-a-m66-flare.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0px,0px,20px,gold;
+}
+.circle1{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    position: relative;
+    animation: planet1 10s linear 0s infinite normal;
+}
+@keyframes planet1{
+    from{
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.mercury{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 180px;
+    left: 110px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDjezvdR4CIlJu2Dog6gelCHKI1HpLL68rag&s");
+    background-size: cover;
+}
+.circle2{
+    height: 280px;
+    width: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    position: relative;
+    animation: planet2 30s linear 0s infinite normal;
+}
+@keyframes planet2{
+    from{
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.venus{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: absolute;
+    top: 195px;
+    left: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1REx6QYitAlBvfZTqgCoYbOkPOih2-V23cA&s");
+    background-size: cover;
+}
+
+.circle3{
+    height: 370px;
+    width: 370px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    position: relative;
+    animation: planet3 60s linear 0s infinite normal;
+}
+@keyframes planet3{
+    from{
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.earth{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 120px;
+    left: 245px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPBMzSJhmp9bj6fsqRj997TitnI-JEOQCql6NH-q2qAcFXGt5RbR2P6BdMbdeQXUtaQsg&usqp=CAU");
+    background-size: cover;
+}
+
+.circle4{
+    height: 460px;
+    width: 460px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    position: relative;
+    animation: planet4 120s linear 0s infinite normal;
+}
+@keyframes planet4{
+    from{
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.mars{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 305px;
+    left: 100px;
+    background-image: url("https://static.scientificamerican.com/sciam/cache/file/C454F5A6-536E-4C9F-AA6AF354BB85A85B_source.jpg?w=1200");
+    background-size: cover;
+}
+
+.circle5{
+    height: 560px;
+    width: 560px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    position: relative;
+    animation: planet5 180s linear 0s infinite normal;
+}
+@keyframes planet5{
+    from{
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.jupiter{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 240px;
+    right: 262px;
+    background-image: url("https://www.solarsystemscope.com/spacepedia/images/handbook/renders/jupiter.png");
+    background-size: cover;
+}
+
+.circle6{
+    height: 665px;
+    width: 665px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    position: relative;
+    animation: planet6 240s linear 0s infinite normal;
+}
+@keyframes planet6{
+    from{
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.saturn{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 385px;
+    background-image: url("https://icon2.cleanpng.com/20240125/uhx/transparent-saturn-pink-saturn-with-ring-background-objects-1710906961062.webp");
+    background-size: cover;
+}
+
+.circle7{
+    height: 770px;
+    width: 770px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    position: relative;
+    animation: planet7 500s linear 0s infinite normal;
+}
+@keyframes planet7{
+    from{
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.uranus{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 1px solid orange;
+    position: absolute;
+    bottom: 150px;
+    left: 440px;
+    background-image: url("https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTExL3Jhd3BpeGVsX29mZmljZV8zM18yZF9zdHlsZV9waG90b19vZl91cmFudXNfcGxhbmV0X2lzb2xhdGVkX29uX19mM2M4OTY0MS1jYTFkLTQ5ZWItOTQ1Zi01YWU1NWIwN2Q3MWYucG5n.png");
+    background-size: cover;
+}
+
+.circle8{
+    height: 880px;
+    width: 880px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    position: relative;
+    transform: skewY(30deg);
+    animation: planet8 560s linear 0s infinite normal;
+}
+@keyframes planet8{
+    from{
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.neptune{
+    height: 55px;
+    width: 55px;
+    background-image: url("https://science4fun.info/wp-content/uploads/2016/11/Neptune-planet.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 505px;
+}
